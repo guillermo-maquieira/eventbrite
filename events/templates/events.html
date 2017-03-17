@@ -1,0 +1,14 @@
+{% from "util.html" import render_field %}
+
+{% extends "base.html" %}
+
+{% block content %}
+    <blockquote>
+        <p>{{ events }}</p>
+    </blockquote>    
+    {% for events in event %}
+        <blockquote>
+            <p>{{ event }}</p>
+        </blockquote>
+    {% endfor %}
+{% endblock %}

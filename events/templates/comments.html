@@ -1,0 +1,12 @@
+{% from "util.html" import render_field %}
+
+{% extends "base.html" %}
+
+{% block content %}
+    {% for comment in comments %}
+        <blockquote>
+            <p>{{ comment.text }}</p>
+            <small>{{ comment.timestamp.strftime('%Y-%m-%d %H:%M:%S') }}</small>
+        </blockquote>
+    {% endfor %}
+{% endblock %}

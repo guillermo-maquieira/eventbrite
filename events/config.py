@@ -1,0 +1,3 @@
+SECRET_KEY = 'CHANGE_ME'
+SQLALCHEMY_DATABASE_URI = 'sqlite:///eventbrite.db'
+STATIC_ROOT = None

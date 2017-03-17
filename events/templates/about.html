@@ -1,0 +1,15 @@
+{% from "util.html" import render_field %}
+
+{% extends "base.html" %}
+
+{% block content %}
+    <blockquote>
+        <p>{{ id }}</p>
+    </blockquote>
+    <blockquote>
+        <p>{{ name }}</p>
+    </blockquote>
+    <blockquote>
+        <p>{{ user }}</p>
+    </blockquote>    
+{% endblock %}
