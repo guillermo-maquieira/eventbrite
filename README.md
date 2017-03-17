@@ -4,7 +4,7 @@ Consume Eventbrite API using a Flask web application, including SQLAlchemy, WTFo
 
 ## Demo
 
-http://eventbriteflask.pythonanywhere.com/
+http://eventbritephp.pythonanywhere.com/
 
 ## Dependencies
 
